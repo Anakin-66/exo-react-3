@@ -1,4 +1,4 @@
-import ProfileMenu from "./ProfileMenu";
+import ProfileMenu from "../ProfileMenu";
 
 function Header() {
     return (

@@ -1,0 +1,22 @@
+#root {
+    background-color: red;
+    color: bisque;
+}
+/* J'ai ajouté que ce className */
+.puce {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}

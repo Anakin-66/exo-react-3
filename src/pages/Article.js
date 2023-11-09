@@ -1,7 +1,8 @@
-import Footer from './Footer.js';
-import Header from './Header.js';
+import Footer from '../components/Footer.js';
+import Nav from '../components/Nav.js';
+import Header from '../components/Header.js';
 
-function Home() {
+function Article() {
     
     const articles = [
         {
@@ -65,18 +66,14 @@ function Home() {
         },
       ];
 
-      const publishedArticles = articles.filter((product) => {
-        return product.isPublished === true;
-      });
-
-      const lastThreeArticles = publishedArticles.slice(-3);
 
 
     return (
       <>
         <Header />
+        <Nav />
           <main>
-            {lastThreeArticles.map((product) => {
+            {articles.map((product) => {
               return (
                 <article>
                   <h2>{product.title}</h2>
@@ -90,4 +87,4 @@ function Home() {
     )
   }
 
-  export default Home;
+  export default Article;

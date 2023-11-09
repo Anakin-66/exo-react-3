@@ -1,6 +1,10 @@
 #root {
-    background-color: red;
+    background-color: violet;
+    border-radius: 30px;
     color: bisque;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
 }
 h1 {
     text-align: center;
@@ -8,7 +12,15 @@ h1 {
 /* J'ai ajouté que ce className */
 .puce {
     list-style-type: none;
-    padding: 0px;
+    padding: 2rem;
     display: flex;
     justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: bisque;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 30px;
+    font-weight: bold;
 }

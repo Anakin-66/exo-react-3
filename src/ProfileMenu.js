@@ -1,12 +1,12 @@
-function ProfileMenu() {
-    const profile = {
-        firstname: "Nathan",
-        lastname: "Frangeul"
-    }
+// function ProfileMenu() {
+//     const profile = {
+//         firstname: "Nathan",
+//         lastname: "Frangeul"
+//     }
 
-    return (
-        <li> {profile.firstname + ` ` +  profile.lastname} </li>
-    )
-}
+//     return (
+//         <li> {profile.firstname + ` ` +  profile.lastname} </li>
+//     )
+// }
 
-export default ProfileMenu;
+// export default ProfileMenu;

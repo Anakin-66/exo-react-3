@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 
 function Contact() {
     return (
@@ -7,6 +8,7 @@ function Contact() {
             <li>06 XX XX XX XX</li>
             <li>fhjuidsfjiuds@gmail.com 3</li>
         </ul>
+        <Footer />
       </>
     )
   }

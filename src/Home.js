@@ -1,3 +1,6 @@
+import Footer from './Footer.js';
+import Header from './Header.js';
+
 function Home() {
     
     const articles = [
@@ -70,16 +73,20 @@ function Home() {
 
 
     return (
-      <main>
-        {lastThreeArticles.map((product) => {
-          return (
-            <article>
-              <h2>{product.title}</h2>
-              <p>{product.price} e</p>
-            </article>
-          );
-        })}
-      </main>
+      <>
+        <Header />
+          <main>
+            {lastThreeArticles.map((product) => {
+              return (
+                <article>
+                  <h2>{product.title}</h2>
+                  <p>{product.price} e</p>
+                </article>
+              );
+            })}
+          </main>
+        <Footer />
+      </>
     )
   }
 
